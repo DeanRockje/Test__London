@@ -11,7 +11,7 @@ class CsvExportPipeline(object):
 
     def __init__(self):
         self.files = {}
-        fields_to_export = ['track_name','race_id','time','name','participant_id','chances']
+        self.fields_to_export = ['track_name','race_id','race_start','name','participant_id','chances']
 
 
     @classmethod
@@ -24,8 +24,7 @@ class CsvExportPipeline(object):
     def spider_opened(self, spider):
         file = open('%s_races.csv' % spider.name, 'w+b')
         self.files[spider] = file
-        self.exporter = CsvItemExporter(file,fields_to_export=['race_id','track_name','race_start',
-                                                               'name','participant_id','chances'])
+        self.exporter = CsvItemExporter(file,fields_to_export=self.fields_to_export)
         self.exporter.start_exporting()
 
     def spider_closed(self, spider):

@@ -1,16 +1,16 @@
-race_id,track_name,race_start,name,participant_id,chances
-4685617,Aqueduct,17:50,Manuel Franco,2,11/8 
-4685617,Aqueduct,17:50,Aaron Gryder,3,3/1 
-4685617,Aqueduct,17:50,Kendrick Carmouche,6,3/1 
-4685617,Aqueduct,17:50,C H Velasquez,5,6/1 
-4685617,Aqueduct,17:50,Eric Cancel,7,12/1 
-4685655,Gulfstream,18:04,Leonel Reyes,1,SP
-4685655,Gulfstream,18:04,Raul Mena,2,SP
-4685655,Gulfstream,18:04,Edgard Zayas,3,SP
-4685655,Gulfstream,18:04,Larry Mejias,4,SP
-4685655,Gulfstream,18:04,Lane Luzzi,5,SP
-4685618,Aqueduct,18:20,Antonio Gallardo,1,SP
-4685618,Aqueduct,18:20,Dylan Davis,2,SP
-4685618,Aqueduct,18:20,Rosario Montanez,3,SP
-4685618,Aqueduct,18:20,Irad Ortiz Jr,4,SP
-4685618,Aqueduct,18:20,C H Velasquez,5,SP
+track_name,race_id,race_start,name,participant_id,chances
+Gulfstream,4685655,18:04,Leonel Reyes,1,SP
+Gulfstream,4685655,18:04,Raul Mena,2,SP
+Gulfstream,4685655,18:04,Edgard Zayas,3,SP
+Gulfstream,4685655,18:04,Larry Mejias,4,SP
+Gulfstream,4685655,18:04,Lane Luzzi,5,SP
+Aqueduct,4685618,18:20,Antonio Gallardo,1,SP
+Aqueduct,4685618,18:20,Dylan Davis,2,SP
+Aqueduct,4685618,18:20,Rosario Montanez,3,SP
+Aqueduct,4685618,18:20,Irad Ortiz Jr,4,SP
+Aqueduct,4685618,18:20,C H Velasquez,5,SP
+Gulfstream,4685656,18:33,Joe Bravo,1,SP
+Gulfstream,4685656,18:33,Matthew Rispoli,2,SP
+Gulfstream,4685656,18:33,Edgard Zayas,3,SP
+Gulfstream,4685656,18:33,Luca Panici,4,SP
+Gulfstream,4685656,18:33,Jose Lezcano,5,SP
