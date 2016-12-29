@@ -3,4 +3,4 @@
 3. Activate VE source .env/bin/activate
 4. pip install -r requirements.txt
 5. Run scrapy spider (scrapy crawl works)
-###.csv file will be generated through pipeline
+
